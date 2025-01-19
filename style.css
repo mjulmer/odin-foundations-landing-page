@@ -11,7 +11,17 @@ body {
 .section-1,
 .footer {
   background-color: #1f2937;
-  color: white;
+  color: #F9FAF8;
+}
+
+.header,
+.section-1,
+.section-2,
+.section-3,
+.section-4,
+.footer {
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .section-3 {
@@ -31,6 +41,27 @@ body {
     flex-grow: 1;
 }
 
+.header {
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header span {
+    margin-right: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .footer {
   text-align: center;
+  justify-content: center;
+  align-content: center;
+  min-height: 60px;
 }
