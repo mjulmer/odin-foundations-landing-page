@@ -1,4 +1,36 @@
-/* styling here */
-.header {
-    background-color: #1F2937;
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.section-1,
+.footer {
+  background-color: #1f2937;
+  color: white;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+}
+
+.body-sections {
+  margin-top: auto;
+  margin-bottom: auto;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.section {
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
 }
