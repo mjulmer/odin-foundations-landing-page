@@ -82,6 +82,51 @@ body {
   margin-top: 5px;
 }
 
+.section-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.call-to-action-modal {
+    display: flex;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-radius: 8px;
+    align-items: center;
+    height: 100px;
+    padding: 20px 30px;
+    flex: 1;
+}
+
+.call-to-action-text {
+    margin-left: 50px;
+}
+
+.cta-header{
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.cta-subtitle {
+    padding: 0;
+    font-size: 12px;
+}
+
+.call-to-action-button {
+    margin-right: 50px;
+    margin-left: auto;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border-color: #f9faf8;
+    border-style: solid;
+    border-radius: 8px;
+    height: fit-content;
+    padding: 5px 20px;
+}
+
 .footer {
   text-align: center;
   justify-content: center;
