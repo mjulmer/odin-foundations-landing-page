@@ -24,6 +24,14 @@ body {
   padding-right: 150px;
 }
 
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
 .body-sections {
   margin-top: auto;
   margin-bottom: auto;
@@ -59,8 +67,6 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 30px;
-  padding-top: 75px;
-  padding-bottom: 75px;
 }
 
 .hero-section-column {
@@ -99,7 +105,7 @@ body {
 }
 
 .section-2 {
-  padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .section-2 p {
