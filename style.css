@@ -11,7 +11,7 @@ body {
 .section-1,
 .footer {
   background-color: #1f2937;
-  color: #F9FAF8;
+  color: #f9faf8;
 }
 
 .header,
@@ -20,12 +20,8 @@ body {
 .section-3,
 .section-4,
 .footer {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.section-3 {
-  background-color: #e5e7eb;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .body-sections {
@@ -37,26 +33,53 @@ body {
 }
 
 .section {
-    flex-basis: 150px;
-    flex-grow: 1;
+  flex-basis: 150px;
+  flex-grow: 1;
 }
 
 .header {
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  display: flex;
+  gap: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header span {
-    margin-right: auto;
-    font-size: 24px;
-    font-weight: bold;
+  margin-right: auto;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .header a {
-    font-size: 18px;
-    color: #E5E7EB;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.section-3 {
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-container {
+  max-width: 775px;
+}
+
+.quote {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: lighter;
+  color: #1f2937;
+  margin-bottom: 5px;
+}
+
+.quote-attribution {
+  font-weight: bold;
+  font-size: 20px;
+  color: #1f2937;
+  text-align: end;
+  margin-top: 5px;
 }
 
 .footer {
